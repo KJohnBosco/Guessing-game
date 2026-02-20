@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Study</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <section id="JSDOM">
+      <h2>Guessing Game (0 - 20)</h2>
+      <div class="line"></div>
+      <div class="contents">
+        <div class="panel1">
+          <h3 class="game-message">Start Game!</h3>
+          <input type="number" placeholder="|" class="guess" />
+          <button class="btn check">Check</button>
+        </div>
+        <button class="new-game">New Game ✨</button>
+        <p class="chest">?</p>
+        <button class="again">Again 😁 &curvearrowleft;</button>
+        <div class="panel2">
+          <h3>Game Results</h3>
+          <p>Score: <span class="current-score">0</span></p>
+          <p>High Score: <span class="high-score">0</span></p>
+        </div>
+      </div>
+
+      <h3>Steps:</h3>
+      <ul>
+        <li>Enter a number in the input box (in the White Panel)</li>
+        <li>Click the "Check" button on the white panel</li>
+        <li>See your results in the dark results panel</li>
+      </ul>
+    </section>
+
+    <!-- Javascript file import -->
+    <script src="Script.js"></script>
+  </body>
+</html>
